@@ -1,0 +1,26 @@
+{
+  "name": "asth-poject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "doc:dev": "npm -w docs run dev",
+    "dev": "npm -w play run dev",
+    "build": "npm -w packages run build",
+    "publish": "npm -w packages run ph"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages",
+    "docs",
+    "play"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
