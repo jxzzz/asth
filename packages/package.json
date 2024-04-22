@@ -1,7 +1,7 @@
 {
   "name": "@asth/ui",
-  "version": "0.0.16",
-  "description": "A React Component Library. Uses TypeScript, Fast, Juit Practise. ",
+  "version": "0.0.17",
+  "description": "A React Component Library. Uses TypeScript, Fast, Just Practise. ",
   "type": "module",
   "main": "dist/lib.umd.cjs",
   "module": "dist/lib.js",
@@ -10,12 +10,11 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
+  "typings": "./types/index.d.ts",
   "scripts": {
     "dev": "vite serve docs",
-    "build": "node ./scripts/index.js",
-    "ph": "npm run build && npm publish"
+    "build": "node ./scripts/index.js"
   },
-  "typings": "./types/index.d.ts",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

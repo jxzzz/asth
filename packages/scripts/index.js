@@ -13,9 +13,7 @@ fs.rm(
       console.log(err.message);
     } else {
       console.log('Type directory cleaned.');
-      exec('tsc').addListener('exit', () => {
-        exec('vite build');
-      });
+      exec('tsc && vite build');
     }
   }
 );

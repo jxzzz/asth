@@ -1,5 +1,4 @@
-import Button from 'jgx-ui/components/Button/button';
-import Input from 'jgx-ui/components/Input/input';
+import { Input, Button } from '@asth/ui/index';
 
 function App() {
   return (

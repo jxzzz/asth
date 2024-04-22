@@ -2,9 +2,6 @@
 export default {
   content: ['./components/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    // fontFamily: {
-    //   custom: ['Inter var', 'sans-serif'],
-    // },
     extend: {
       spacing: {
         '8xl': '96rem',
